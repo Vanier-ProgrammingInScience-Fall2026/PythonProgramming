@@ -4,9 +4,30 @@
 
 **Accept and access your assignment here:**
 
-[**Classroom50 — Lab 1 Assignment**](PASTE-YOUR-CLASSROOM50-ASSIGNMENT-LINK-HERE)
+https://classroom50.org/Vanier-ProgrammingInScience-Fall2026/programming-in-science-fall-2026/assignments/lab1-section-3/accept
 
-After accepting the assignment, Classroom50 will create your personal Lab 1 repository.
+
+1. Open lab1.py
+
+Open your Lab 1 repository on your computer and open the file lab1.py in your Python editor (such as PyCharm).
+
+2. Complete the Lab
+
+Complete Task 1 and Task 2 in lab1.py.
+
+Run your program several times and make sure that you get the expected output.
+
+3. Save and Submit Your Work
+
+When you are finished:
+a)
+Save your lab1.py file.
+Copy its content in lab1.py under your github repository.
+save and Commit your changes.
+
+Your submission will be updated automatically when you push your changes.
+
+b)upload a copy of lab1.py to Omnivox as well.
 
 ---
 
