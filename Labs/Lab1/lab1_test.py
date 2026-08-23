@@ -26,3 +26,11 @@ def test_task_2_input_output():
     assert "Hello, Alice!" in output
     assert "You are 25 years old." in output
     assert "Your height is 1.75 meters." in output
+
+
+def test_task_2_different_values():
+    output = run_program("Bob\n30\n1.80\n")
+
+    assert "Hello, Bob!" in output
+    assert "You are 30 years old." in output
+    assert "Your height is 1.8 meters." in output
