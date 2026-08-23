@@ -1,1 +1,76 @@
 
+### Lab 1 Assignment
+
+**Accept and access your assignment here:**
+
+[**Classroom50 — Lab 1 Assignment**](PASTE-YOUR-CLASSROOM50-ASSIGNMENT-LINK-HERE)
+
+After accepting the assignment, Classroom50 will create your personal Lab 1 repository.
+
+---
+
+# Task 1 — Hello World
+
+Write a Python program that prints exactly:
+
+```text
+Hello, World!
+```
+
+You should use the `print()` function.
+
+### Expected output
+
+```text
+Hello, World!
+```
+
+---
+
+# Task 2 — Input and Output with Different Variable Types
+
+Write a Python program that asks the user to enter:
+
+1. Their **name** — a string
+2. Their **age** — an integer
+3. Their **height in meters** — a float
+
+Store each value in an appropriate variable.
+
+Your program should then display the information using the following format:
+
+```text
+Hello, Alice!
+You are 25 years old.
+Your height is 1.75 meters.
+```
+
+### Example interaction
+
+```text
+Enter your name: Alice
+Enter your age: 25
+Enter your height (meters): 1.75
+Hello, Alice!
+You are 25 years old.
+Your height is 1.75 meters.
+```
+
+Your program should work with different names, ages, and heights.
+
+For example, if the user enters:
+
+```text
+Bob
+30
+1.80
+```
+
+the output should be:
+
+```text
+Hello, Bob!
+You are 30 years old.
+Your height is 1.8 meters.
+```
+
