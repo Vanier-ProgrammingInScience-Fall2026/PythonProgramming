@@ -102,4 +102,4 @@ Your height is 1.8 meters.
 ```
 
 
-Good luck with Lab 1! 🐍
+Good luck with Lab 1!
