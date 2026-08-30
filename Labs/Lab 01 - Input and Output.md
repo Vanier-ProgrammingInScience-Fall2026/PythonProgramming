@@ -4,7 +4,26 @@
 
 **Accept and access your assignment here:**
 
+Important: Choose the Correct Section
+
+There are three different assignment links, one for each section.
+
+Please click ONLY the link that corresponds to your section.
+
+-Do not use a link for another section.
+Submitting your work through the wrong section may result in your grade being assigned incorrectly or not being recorded for your section.
+
+Accept and access your assignment
+Section 3:
 https://classroom50.org/Vanier-ProgrammingInScience-Fall2026/programming-in-science-fall-2026/assignments/lab1-section-3/accept
+
+Section 4:
+https://classroom50.org/Vanier-ProgrammingInScience-Fall2026/programming-in-science-fall-2026/assignments/lab1-section-4/accept
+
+Section 5:
+https://classroom50.org/Vanier-ProgrammingInScience-Fall2026/programming-in-science-fall-2026/assignments/lab1-section-5/accept
+
+Before clicking a link, make sure you select the link for your own section.
 
 
 ### 1. Open `lab1.py`
