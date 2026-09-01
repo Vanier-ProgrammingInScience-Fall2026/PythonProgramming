@@ -50,7 +50,8 @@ Your submission will be updated automatically when you push your changes.
 **b) Upload a copy of `lab2.py` to Omnivox as well.**
 
 > **Note:** Do not change the names of any files provided in the assignment. In particular, keep the file name `lab2.py` unchanged.
-> **Note:** Do not change the name and content of any other files provided in the assignment.
+
+> **Note:** Do not change the name and content of any other files provided in the assignment, otherwise you will loose grade.
 
 ### Question(s)
 
