@@ -68,7 +68,7 @@ Where:
 Tasks:  
 
 1.	Define an algorithm that describes the steps to calculate the height of the ball at time `t` using the given formula.  
-2.	Write a Python function that calculates the height of the ball at time `t` after being dropped from an initial height `h0`.  
+2.	Write a Python program that calculates the height of the ball at time `t` after being dropped from an initial height `h0`.  
 3.	Perform arithmetic operations to calculate the height of the ball at a given time.  
 4.	Test your function by calculating the height of a ball dropped from a height of 50 meters at 3 different time intervals (e.g., at 1 second, 2 seconds, and 3 seconds).
 5.	Apply basic debugging techniques to check that your code works for different inputs and edge cases (e.g., when `t = 0` ).  
