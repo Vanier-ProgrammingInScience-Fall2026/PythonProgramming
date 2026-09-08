@@ -111,33 +111,4 @@ print(calculate_speed(100, 20))  # Output: 5.0
 
 Comments are essential for maintaining and understanding code, especially when the program becomes more complex.
 
-### 5. **Identifying and Fixing Common Errors Using Debugging Techniques**
 
-**Debugging** is an essential skill in programming that involves identifying and fixing errors in code. Common errors in Python include **syntax errors**, **runtime errors**, and **logical errors**.
-
-#### Common Debugging Techniques:
-1. **Read error messages carefully**: Python provides useful error messages that tell you where the problem is in your code. Always read these messages to understand what went wrong.
-2. **Use print statements**: Print the values of variables or the result of expressions to help understand what the program is doing at different points.
-3. **Check for common mistakes**:
-   - Missing or extra parentheses
-   - Typographical errors in variable or function names
-   - Incorrect indentation (Python relies on indentation to define code blocks)
-
-Example of debugging with print statements:
-```python
-# Debugging an example of calculating speed
-distance = float(input("Enter distance: "))
-time = float(input("Enter time: "))
-
-# Debugging: Check the inputs before calculating
-print("Distance entered:", distance)
-print("Time entered:", time)
-
-# Perform calculation
-speed = distance / time
-
-# Output the result
-print(f"Speed is {speed} meters per second.")
-```
-
-In this example, **print statements** are used to check if the inputs are correct before performing the calculation. This helps identify if the problem lies with the inputs or the calculation itself.
