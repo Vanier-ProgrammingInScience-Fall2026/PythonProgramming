@@ -54,7 +54,6 @@ Your submission will be updated automatically when you push your changes.
 
 > **Note:** Do not change the name and content of any other files provided in the assignment, otherwise you will loose grade.
 
-### Question(s)
 
 # Question 1 — Using Existing Functions
 
@@ -112,7 +111,6 @@ The larger x-coordinate is 8.0
 
 The exact wording is not important as long as the correct values are displayed.
 
-**Do not use loops, `if` statements, or lists.**
 
 ---
 
