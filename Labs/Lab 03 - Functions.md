@@ -2,57 +2,7 @@
 
 ## Lab 3 Assignment
 
-**Accept and access your assignment here:**
-
-Important: Choose the Correct Section
-
-There are three different assignment links, one for each section.
-
-Please click ONLY the link that corresponds to your section.
-
--Do not use a link for another section.
-Submitting your work through the wrong section may result in your grade being assigned incorrectly or not being recorded for your section.
-
-Accept and access your assignment
-
-Section 3:
-https://classroom50.org/Vanier-ProgrammingInScience-Fall2026/programming-in-science-fall-2026/assignments/lab3-section-3/accept
-
-Section 4:
-https://classroom50.org/Vanier-ProgrammingInScience-Fall2026/programming-in-science-fall-2026/assignments/lab3-section-4/accept
-
-Section 5:
-https://classroom50.org/Vanier-ProgrammingInScience-Fall2026/programming-in-science-fall-2026/assignments/lab3-section-5/accept
-
-Before clicking a link, make sure you select the link for your own section.
-
-
-### 1. Open `lab3.py`
-
-Open your Lab repository on your computer and open the file **`lab3.py`** in your Python editor, such as **PyCharm**.
-
-### 2. Complete the Lab
-
-Run your program several times and make sure that you get the expected output.
-
-### 3. Save and Submit Your Work
-
-When you are finished:
-
-**a) Save and submit your work on GitHub**
-
-1. Save your `lab3.py` file.
-2. Copy the content of your completed file into `lab3.py` in your GitHub repository.
-3. Save and commit your changes.
-4. Push your changes to GitHub.
-
-Your submission will be updated automatically when you push your changes.
-
-**b) Upload a copy of `lab3.py` to Omnivox as well.**
-
-> **Note:** Do not change the names of any files provided in the assignment. In particular, keep the file name `lab3.py` unchanged.
-
-> **Note:** Do not change the name and content of any other files provided in the assignment, otherwise you will loose grade.
+> **Note:** Upload your solution (only .py file) to Omnivox as well.**
 
 
 # Question 1 — Using Existing Functions
