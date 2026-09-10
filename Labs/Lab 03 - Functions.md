@@ -2,7 +2,7 @@
 
 ## Lab 3 Assignment
 
-> **Note:** Upload your solution (only .py file) to Omnivox as well.**
+> **Note:** Upload your solution (only .py file) to Omnivox.*
 
 
 # Question 1 — Using Existing Functions
