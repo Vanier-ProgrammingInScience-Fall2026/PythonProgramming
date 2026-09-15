@@ -1,4 +1,8 @@
-# Programming in Science – Lab 4-Selection
+# Lab 4 — Selection
+
+
+> **Note:** Upload your solution (only .py file) to Omnivox.
+
 
 ### Question(s) 
 
