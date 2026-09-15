@@ -4,7 +4,7 @@
 > **Note:** Upload your solution (only .py file) to Omnivox.
 
 
-### Question(s) 
+## Question(s) 
 
 A valid day number in a week must be between **1 and 7**:  
 
