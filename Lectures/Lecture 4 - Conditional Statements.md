@@ -1,4 +1,4 @@
-# Lecture 5: Conditional Statements - The IF Statement
+# Lecture 4: Conditional Statements - The IF Statement
 
 ### **Table of Contents**
 
