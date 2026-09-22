@@ -1,4 +1,4 @@
-# Lecture 6: Iterative Logic
+# Lecture 5: Iterative Logic
 
 ### **Table of Contents**
 
