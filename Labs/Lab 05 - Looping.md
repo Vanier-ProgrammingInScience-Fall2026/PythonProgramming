@@ -44,3 +44,20 @@ Sum = 1 + 2 + 3 + 4 + 5 = 15
 *******
 ```
 ✅ **Hints:** Use spaces before stars to center the pyramid.
+
+5. User-Defined Function - Fibonacci:
+   
+   - Write a function `fibonacci(n)` that **returns the nth Fibonacci number** using recursion.
+   
+   #### Example:
+```python
+def fibonacci(n):
+    # code 
+
+fibonacci(0)  # Returns 0
+fibonacci(1)  # Returns 1
+fibonacci(5)  # Returns 5
+```
+   ✅ **Hints:** The Fibonacci sequence follows `F(n) = F(n-1) + F(n-2)`, 
+   with base cases `F(0) = 0` and `F(1) = 1`.
+
