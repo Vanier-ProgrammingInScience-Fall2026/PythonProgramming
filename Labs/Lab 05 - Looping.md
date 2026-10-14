@@ -1,4 +1,4 @@
-# Programming in Science – Lab 5-Loop
+# Lab 5-Loop
 
 ### Question(s) 
 
