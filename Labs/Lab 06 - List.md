@@ -1,4 +1,4 @@
-# Programming in Science – Lab 7-List
+# Programming in Science – Lab 6-List
 
 ### Question(s)
 
