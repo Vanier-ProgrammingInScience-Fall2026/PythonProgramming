@@ -1,4 +1,4 @@
-# Programming in Science – Lab 8–2D List
+# Lab 7–2D List
 
 ### Question(s)
 
