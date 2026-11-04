@@ -29,9 +29,9 @@ Basic Syntax to open a file:
 # Open the file in read mode
 file = open('filename.txt', 'r')  
 
-file = open('C:/Users/wangy/Downloads/filename.txt', 'r')  # absolute path with '/'
+file = open('C:/Users/niloufar/Downloads/filename.txt', 'r')  # absolute path with '/'
 
-file = open('C:\\Users\\wangy\\Downloads\\filename.txt', 'r')  # absolute path with '\\'
+file = open('C:\\Users\\niloufar\\Downloads\\filename.txt', 'r')  # absolute path with '\\'
 ```
 
 The filename may also be an absolute path, such as `'C:/Users/wangy/Downloads/filename.txt'`. In Windows paths, use `/` or escape each backslash as `\\`.
