@@ -342,3 +342,194 @@ data = np.random.normal(size=500)
 sns.kdeplot(data)
 plt.show()
 ```
+
+# 1.4 Random Data Generation with NumPy - More details
+
+Sometimes, we need numerical data to perform experiments, simulations,
+or analysis. Instead of entering data manually, we can use NumPy to
+generate random numbers.
+
+NumPy provides different functions to generate random data. In this
+section, we will learn about three common distributions.
+
+## 1. Uniform Distribution -- `np.random.uniform()`
+
+A uniform distribution generates random numbers within a specified
+range, where every value in that range has an equal chance of being
+selected.
+
+**Syntax:**
+
+``` python
+np.random.uniform(minimum, maximum, size)
+```
+
+**Example:**
+
+``` python
+import numpy as np
+
+data = np.random.uniform(0, 10, 5)
+
+print(data)
+```
+
+Possible output:
+
+``` text
+[2.34 8.91 4.56 0.72 6.18]
+```
+
+**Parameters:**
+
+-   `minimum`: The lower limit of the range.
+-   `maximum`: The upper limit of the range (normally excluded).
+-   `size`: The number of random values to generate.
+
+**Real-life example:** Generating five random temperatures between 0 and
+10 degrees.
+
+## 2. Normal Distribution -- `np.random.normal()`
+
+A normal distribution generates random numbers that tend to be
+concentrated around an average value (mean).
+
+In real life, many measurements follow approximately a normal
+distribution. For example, people's heights, test scores, and
+measurement errors often tend to be distributed around an average.
+
+**Syntax:**
+
+``` python
+np.random.normal(mean, standard_deviation, size)
+```
+
+**Example:**
+
+``` python
+import numpy as np
+
+heights = np.random.normal(170, 10, 100)
+
+print(heights)
+```
+
+**Parameters:**
+
+-   `mean`: The average value around which the numbers are distributed.
+-   `standard_deviation`: Determines how spread out the values are
+    around the average.
+-   `size`: The number of random values to generate.
+
+**Understanding standard deviation:**
+
+-   A small standard deviation means most values are close to the
+    average.
+-   A large standard deviation means values are more spread out.
+
+For example:
+
+``` python
+data1 = np.random.normal(170, 5, 1000)
+data2 = np.random.normal(170, 20, 1000)
+```
+
+Both datasets have an average of 170, but `data2` has more variation.
+
+## 3. Poisson Distribution -- `np.random.poisson()`
+
+A Poisson distribution generates random whole numbers representing how
+many times an event happens within a fixed interval.
+
+It is useful when we want to simulate the number of occurrences of an
+event over a period of time or within a specific area.
+
+**Real-life examples:**
+
+-   Number of customers entering a store per minute.
+-   Number of cars passing through a road per minute.
+-   Number of emails received per hour.
+-   Number of patients arriving at a hospital per hour.
+
+**Syntax:**
+
+``` python
+np.random.poisson(lam, size)
+```
+
+**Example:**
+
+``` python
+import numpy as np
+
+cars = np.random.poisson(4, 10)
+
+print(cars)
+```
+
+Possible output:
+
+``` text
+[2 4 3 1 5 2 3 4 2 6]
+```
+
+**Parameters:**
+
+-   `lam` (Lambda, λ): The expected average number of times an event
+    happens within a fixed interval.
+-   `size`: The number of random values to generate.
+
+**Understanding Lambda (λ):**
+
+We must specify lambda before generating the random data. Its value can
+come from:
+
+-   **Real data:** We collect historical data and calculate the average
+    number of occurrences per interval.
+-   **Simulation:** We choose a reasonable average based on our
+    assumptions or the situation we want to simulate.
+
+For example, suppose we know that an average of 4 cars pass through a
+road every minute.
+
+``` python
+cars = np.random.poisson(4, 10)
+```
+
+Here:
+
+-   `4`: On average, 4 cars pass per minute.
+-   `10`: We simulate 10 different minutes.
+
+The generated values represent the number of cars passing during each
+minute.
+
+**Important:** Lambda does not mean that exactly 4 events will happen in
+every interval. It represents the expected average over many intervals.
+Some minutes might have 2 cars, others 5 or 6.
+
+------------------------------------------------------------------------
+
+## Summary: Comparing the Three Distributions
+
+  -----------------------------------------------------------------------
+  Distribution            What does it generate?  Example
+  ----------------------- ----------------------- -----------------------
+  Uniform                 Random values within a  Temperature between 0
+                          range, equally likely   and 10
+
+  Normal                  Values concentrated     People's heights
+                          around an average       
+
+  Poisson                 Number of occurrences   Cars passing per minute
+                          of an event             
+  -----------------------------------------------------------------------
+
+**Remember:**
+
+-   **Uniform:** Every value within the specified range has an equal
+    chance.
+-   **Normal:** Values tend to be around an average.
+-   **Poisson:** We count how many times an event happens within a fixed
+    interval.
+
