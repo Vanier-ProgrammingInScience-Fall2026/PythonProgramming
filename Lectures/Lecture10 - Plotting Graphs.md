@@ -352,7 +352,7 @@ generate random numbers.
 NumPy provides different functions to generate random data. In this
 section, we will learn about three common distributions.
 
-## 1. Uniform Distribution -- `np.random.uniform()`
+#### 1. Uniform Distribution -- `np.random.uniform()`
 
 A uniform distribution generates random numbers within a specified
 range, where every value in that range has an equal chance of being
@@ -389,7 +389,7 @@ Possible output:
 **Real-life example:** Generating five random temperatures between 0 and
 10 degrees.
 
-## 2. Normal Distribution -- `np.random.normal()`
+#### 2. Normal Distribution -- `np.random.normal()`
 
 A normal distribution generates random numbers that tend to be
 concentrated around an average value (mean).
@@ -436,7 +436,7 @@ data2 = np.random.normal(170, 20, 1000)
 
 Both datasets have an average of 170, but `data2` has more variation.
 
-## 3. Poisson Distribution -- `np.random.poisson()`
+#### 3. Poisson Distribution -- `np.random.poisson()`
 
 A Poisson distribution generates random whole numbers representing how
 many times an event happens within a fixed interval.
