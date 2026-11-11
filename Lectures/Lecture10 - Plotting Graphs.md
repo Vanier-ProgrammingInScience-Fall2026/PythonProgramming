@@ -343,7 +343,7 @@ sns.kdeplot(data)
 plt.show()
 ```
 
-# 1.4 Random Data Generation with NumPy - More details
+### 1.4 Random Data Generation with NumPy - More details
 
 Sometimes, we need numerical data to perform experiments, simulations,
 or analysis. Instead of entering data manually, we can use NumPy to
