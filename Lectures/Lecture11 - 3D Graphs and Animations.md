@@ -1,4 +1,4 @@
-# Lecture 12: 3D Graphs and Animations
+# Lecture 11: 3D Graphs and Animations
 
 ### **Table of Contents**
 
